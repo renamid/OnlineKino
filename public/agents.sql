@@ -24,7 +24,6 @@ VALUES
   ('Isabella Martinez', 'imartinez@example.com', '+1 (555) 789-4561', 5, 'Bachelor of Arts in Business Administration', 55000);
 
 
-
 alter table agents
     owner to postgres;
 
