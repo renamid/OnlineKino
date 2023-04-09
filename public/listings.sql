@@ -12,7 +12,7 @@ create table listings
     user_id   integer
         references users
 );
-
+/*dsadasda*/
 INSERT INTO listings (object_id, type, price, address, thumbnail, user_id)
 SELECT objects.id, objects.type, objects.price, objects.address, objects.photos, purchases.user_id
 from objects
