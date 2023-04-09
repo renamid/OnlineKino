@@ -13,6 +13,10 @@ create table listings
         references users
 );
 
+INSERT INTO listings (object_id, type, price, address, thumbnail, user_id)
+SELECT objects.id, objects.type, objects.price, objects.address, objects.photos, purchases.user_id
+from objects
+    JOIN purchases ON objects.id = purchases.object_id;
 alter table listings
     owner to postgres;
 

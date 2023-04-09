@@ -1,4 +1,4 @@
-
+/*
 CREATE TABLE objects (
   id SERIAL PRIMARY KEY, -- Уникальный идентификатор объекта недвижимости
   address VARCHAR(100), -- Адрес объекта недвижимости
@@ -51,3 +51,5 @@ CREATE TABLE purchases (
   price FLOAT, -- Стоимость продажи объекта недвижимости
   date DATE -- Дата завершения сделки
 );
+
+ */
