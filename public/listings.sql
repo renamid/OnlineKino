@@ -63,3 +63,4 @@ $$
 
 alter table listings
     owner to postgres;
+
