@@ -17,7 +17,7 @@ AS
 $$
 BEGIN
     COPY agents (name, email, phone, experience, education, salary)
-        FROM '/path/to/file_objects.csv' DELIMITER ',' CSV HEADER;
+        FROM '/path/to/file_agents.csv' DELIMITER ',' CSV HEADER;
 END;
 $$ LANGUAGE plpgsql;
 

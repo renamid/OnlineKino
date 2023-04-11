@@ -20,7 +20,7 @@ AS
 $$
 BEGIN
     COPY listings (object_id, name, user_id)
-        FROM '/path/to/file_objects.csv' DELIMITER ',' CSV HEADER;
+        FROM '/path/to/file_listings.csv' DELIMITER ',' CSV HEADER;
     UPDATE listings
     SET type      = objects.type,
         price     = objects.price,

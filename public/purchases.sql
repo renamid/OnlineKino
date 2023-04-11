@@ -19,7 +19,7 @@ AS
 $$
 BEGIN
     COPY purchases (object_id, user_id, agent_id, price, date)
-        FROM '/path/to/file_objects.csv' DELIMITER ',' CSV HEADER;
+        FROM '/path/to/file_purchases.csv' DELIMITER ',' CSV HEADER;
 END;
 $$ LANGUAGE plpgsql;
 

@@ -18,7 +18,7 @@ AS
 $$
 BEGIN
     COPY users (name, email, password, phone, budget, location, preferences)
-        FROM '/path/to/file_objects.csv' DELIMITER ',' CSV HEADER;
+        FROM '/path/to/file_users.csv' DELIMITER ',' CSV HEADER;
 END;
 $$ LANGUAGE plpgsql;
 
